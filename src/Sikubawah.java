@@ -6,6 +6,9 @@ class Sikubawah {
       int x, y;
       int tinggi;
        System.out.printf("Tinggi Segitiga : ");
+       tinggi = input.nextInt();
+       System.out.println("=========================");
+       
        for (x=0; x<tinggi; x++){
            for (y=x; y<tinggi; y++){
                System.out.print("^");
