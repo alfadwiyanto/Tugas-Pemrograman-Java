@@ -9,5 +9,14 @@ class SikuKananAtas {
        tinggi = input.nextInt();
        System.out.println("=========================");
        
+       for(x=0; x<tinggi; x++){
+           for(z=0; z<x; z++){
+               System.out.print(" ");
+           }
+           for(y=0; y<(tinggi-x); y++){
+               System.out.print("#");
+           }
+           System.out.println();
+       }
     }
 }
