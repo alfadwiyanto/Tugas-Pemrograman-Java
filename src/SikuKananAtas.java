@@ -5,5 +5,9 @@ class SikuKananAtas {
          Scanner input = new Scanner(System.in);
         int x, y, z ;
         int tinggi;
+        System.out.printf("Tinggi Segitiga : ");
+       tinggi = input.nextInt();
+       System.out.println("=========================");
+       
     }
 }
